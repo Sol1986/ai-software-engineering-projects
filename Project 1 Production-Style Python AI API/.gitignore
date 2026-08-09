@@ -14,8 +14,5 @@ wheels/
 .venv
 .env
 
-# projects
-AGENTS.md
-COMMANDS.md
-MEMORY.md
-THINGSLEARNED.md
+# project
+llm_placeholder_client.py

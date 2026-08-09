@@ -7,7 +7,6 @@ from fastapi import Depends, FastAPI, Request
 from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-
 from llm_client import (
     LLMClient,
     LLMConfigurationError,

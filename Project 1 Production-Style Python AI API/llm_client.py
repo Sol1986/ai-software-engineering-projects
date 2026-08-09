@@ -18,7 +18,6 @@ from typing import Annotated, Protocol
 
 from fastapi import Depends
 from openai import OpenAI
-
 from settings import Settings, get_settings
 
 

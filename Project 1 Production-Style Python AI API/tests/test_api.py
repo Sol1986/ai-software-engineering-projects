@@ -1,6 +1,5 @@
 import pytest
 from fastapi.testclient import TestClient
-
 from llm_client import LLMConfigurationError
 from main import app, get_llm_client
 
