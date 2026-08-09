@@ -19,14 +19,6 @@ A FastAPI service that accepts a business request, validates it with Pydantic, c
 - `GET /health` — confirms the service is running
 - `POST /v1/business-responses` — generates a structured AI response
 
-## Local Setup
-## Testing
-## Docker
-## CI
-## API Documentation
-## Architecture
-## Future Improvements
-
 ## For Testing
 
 ```json
