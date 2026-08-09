@@ -1,0 +1,22 @@
+[project]
+name = "Production_Style_Python_AI_API"
+version = "0.1.0"
+description = "A production-style FastAPI service that turns business requests into structured AI responses."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "httpx2>=2.9.1",
+    "openai>=2.53.0",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.15.0",
+    "python-json-logger>=4.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "mypy>=2.3.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.2",
+]
