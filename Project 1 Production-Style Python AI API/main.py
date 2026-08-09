@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__) # Creates a logger for this file, using the
 llm_client = get_llm_client(settings) #3
 
 app = FastAPI(
-    title = "settings.app_name",
+    title = settings.app_name,
     version = "0.1.0",
     description = "A simple API for business AI applications."
 )
